@@ -1,0 +1,108 @@
+body{
+	background-color: #000033;
+	background-image:url("hatter.jpg");
+	margin: auto 40px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background-image: url("hatter1.jpg");
+	color: red;
+	padding: 10px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+
+footer{
+	font-size: 15px;
+	background-image: url("hatter1.jpg");
+	color: red;
+	padding: 10px 15px;
+	font-size: 25px;
+	font-weight: bold;
+	margin: auto;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+header::after, nav::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0px;
+	text-align: center;
+}	
+
+nav li{
+	float: center;
+	width: 16.666%;
+}
+nav a{
+	text-decoration:none;
+	color: white;
+	display:block;
+	padding: 10px 0;
+	font-weight:bold;
+	font-size:15px;
+	float: center;
+}
+
+main{
+	color:#FFFFFF;
+	max-width:1000px;
+	margin: 40px auto;
+}
+
+main p{text-align:justify; padding:0 20px;}
+main img{ margin: 0 auto; display:block;
+}
+
+header 
+{
+	text-align:center;
+}
+h1{
+	float:center;
+	padding: 0 200px;
+}
+div.t{ 
+	background-color:rgba(0,0,0,0.7);
+	padding: 10px 15px;
+	margin: auto;
+}
+
+nav a:hover
+{
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+main ul li 
+{
+	font-style:italic;
+	list-style:circle;
+}
+
+table,td{
+	border: 1px	white;
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+tr:hover {background-color: rgba(0,0,0,0.5);}
