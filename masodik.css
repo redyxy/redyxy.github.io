@@ -1,0 +1,47 @@
+body{
+	background-image:url("poker.jpg");
+	margin: auto 60px;
+	height: 50%;
+	background-image: no-repeat;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	padding: auto;
+	color: yellow;
+	float:center;
+}
+p{
+	padding: auto;
+	color:white;
+	text-align:center;
+}
+
+div.t{
+	padding: 10px 20px;
+	margin: auto;
+}
+
+header{
+	text-align: center;
+	color: yellow;
+	background-color:rgba(0,0,0,0.7);
+	padding: 10px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+}
+
+li{
+	color:white;
+	padding: 10px 20px;
+	margin:auto;
+	text-align:center;
+}
+
+ul{
+	color:white;
+	padding: 10px 20px;
+	margin:auto;
+	text-align: center;
+}
